@@ -2,8 +2,9 @@ name: 'Verilator Sim'
 description: 'Verilator as GitHub action'
 author: 'drom'
 inputs:
-  name:
-    default: 'GitHub'
+  version:
+    description: 'Verialtor version'
+    default: '4.020'
 runs:
   using: 'node12'
   main: 'dist/action.js'
