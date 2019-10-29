@@ -4,7 +4,8 @@
   "description": "Verilator as GitHub action",
   "main": "action.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browserify": "browserify src/action.js > dist/main.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,8 @@
     "url": "https://github.com/drom/action-verilator/issues"
   },
   "homepage": "https://github.com/drom/action-verilator#readme",
-  "dependencies": {
-    "@actions/core": "^1.2.0"
+  "devDependencies": {
+    "@actions/core": "^1.2.0",
+    "browserify": "^16.5.0"
   }
 }
