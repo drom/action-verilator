@@ -6,4 +6,4 @@ inputs:
     default: 'GitHub'
 runs:
   using: 'node12'
-  main: 'action.js'
+  main: 'dist/action.js'
