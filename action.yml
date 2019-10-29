@@ -1,4 +1,4 @@
-name: 'Verilator'
+name: 'Verilator Sim'
 description: 'Verilator as GitHub action'
 author: 'drom'
 inputs:
