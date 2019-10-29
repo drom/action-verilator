@@ -815,7 +815,7 @@ const core = require('@actions/core');
 
 console.log('action-sim:started');
 
-const myInput = core.getInput('inputName');
+const myInput = core.getInput('version');
 try {
   core.debug('Inside try block');
 
