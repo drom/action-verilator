@@ -1,6 +1,6 @@
 {
   "name": "action-verilator",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Verilator as GitHub action",
   "main": "dist/action.js",
   "scripts": {
