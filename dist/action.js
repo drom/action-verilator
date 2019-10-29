@@ -815,7 +815,7 @@ const core = require('@actions/core');
 
 console.log('action-sim:started');
 
-const myInput = core.getInput('inputName', { required: true });
+const myInput = core.getInput('name', { required: true });
 
 console.log('action-sim:', myInput);
 
