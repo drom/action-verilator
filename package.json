@@ -1,0 +1,23 @@
+{
+  "name": "action-sim",
+  "version": "0.1.0",
+  "description": "Verilator as GitHub action",
+  "main": "action.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drom/action-verilator.git"
+  },
+  "keywords": [],
+  "author": "SiFive Inc.",
+  "license": "Apache2.0",
+  "bugs": {
+    "url": "https://github.com/drom/action-verilator/issues"
+  },
+  "homepage": "https://github.com/drom/action-verilator#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.0"
+  }
+}

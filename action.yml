@@ -1,0 +1,9 @@
+name: 'Verilator'
+description: 'Verilator as GitHub action'
+author: 'drom'
+inputs:
+  name:
+    default: 'GitHub'
+runs:
+  using: 'node12'
+  main: 'action.js'
