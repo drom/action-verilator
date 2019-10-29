@@ -1,5 +1,5 @@
 {
-  "name": "action-sim",
+  "name": "action-verilator",
   "version": "0.1.0",
   "description": "Verilator as GitHub action",
   "main": "action.js",
