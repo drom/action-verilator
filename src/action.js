@@ -2,9 +2,11 @@
 
 const core = require('@actions/core');
 
-console.log('action-sim:started');
+console.log('action-verilator:started');
 
 const myInput = core.getInput('version');
+
+console.log('action-verilator:', myInput);
 
 // try {
 //   core.debug('Inside try block');
@@ -17,6 +19,5 @@ const myInput = core.getInput('version');
 //   core.error(`Error ${err}, action may still succeed though`);
 // }
 
-console.log('action-sim:', myInput);
 
-core.setOutput('outputKey', 'outputVal');
+core.setOutput('vcdFileName', 'bar.vcd');

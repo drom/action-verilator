@@ -5,6 +5,10 @@ inputs:
   version:
     description: 'Verialtor version'
     default: '4.020'
+outputs:
+  vcdFileName:
+    description: 'VCD file name'
+    default: 'foo.vcd'
 runs:
   using: 'node12'
   main: 'dist/action.js'
